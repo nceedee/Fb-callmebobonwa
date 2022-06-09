@@ -1,0 +1,482 @@
+@font-face{
+    font-family: regular;
+    src: url(../font/Raleway/static/Raleway-Regular.ttf);
+}
+
+@font-face{
+    font-family: raleway;
+    src: url(../font/Raleway/static/Raleway-Light.ttf);
+}
+
+@font-face{
+    font-family: bold-one;
+    src: url(../font/Raleway/static/Raleway-Bold.ttf);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: regular;
+    background-color: #242526;
+    color: white;
+}
+
+.text-only{
+    background-color: #7537b3;
+    color: white;
+    display: flex;
+    
+}
+
+.text-only h5{
+    margin-left: 10px;
+}
+
+.buy{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: auto;
+}
+
+
+
+.border{
+    border: 1px solid white;
+    width: 80px;
+    height: 20px;
+    padding: 8px 0px 18px 4px;
+}
+
+
+.join{
+    display: flex;
+    margin-right: 3px;
+}
+
+.text-only .p{
+    font-size: 12px;
+    color: white;
+}
+
+.border-r{
+    width: 75px;
+    margin-right: 5px;
+}
+
+.rounded-border{
+    background-color: #323436;
+    border-radius: 100%;
+    padding: 8px;
+}
+
+.ro-1{
+    padding: 8px 9px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.home{
+    color: #7537b3;
+}
+
+.facebook{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.facebook h1{
+    font-family: bold-one;
+}
+
+.search{
+    margin-left: auto;
+    
+}
+
+
+.mind img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.mind input[value]{
+    color: white;
+}
+
+.mind input{
+    background-color: #323436;
+    border: none;
+    outline: none;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+
+
+.photo-h5{
+    margin: 3px 0px 0px 0px;
+    padding: 0px;
+}
+
+.images{
+    margin-left: 7px;
+}
+
+.mind{
+    border: 2px solid #323436;
+    display: flex;
+    justify-content: space-around;
+    padding: 8px;
+    border-left: none;
+    border-right: none;
+}
+
+.square{
+    display: flex;
+}
+
+.square h5{
+    margin-left: 2px;
+}
+
+.pic{
+    display: flex;
+}
+
+.pic h5{
+    margin-left: 2px;
+}
+
+.locate{
+    display: flex;
+}
+
+.locate h5{
+    margin-left: 2px;
+}
+
+.location{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.dot{
+    color: red;
+}
+
+.black{
+    background-color: black;
+    padding: 3px;
+    margin-top: 8px;
+}
+
+.divide{
+    color: #323436;
+    font-weight: 900;
+}
+
+.pho{
+    color: rgb(147, 225, 70);
+}
+
+.story-side{
+    display: flex;
+    margin: 10px 0px 10px 10px;
+    overflow-x: hidden;
+    margin-bottom: 0;
+}
+
+.story .img{
+    width: 80px;
+    height: 70px;
+    border-radius: 8px 8px 0px 0px;
+    margin-right: 5px;
+}
+
+.story-side img{
+    width: 80px;
+    height: 140px;
+    border-radius: 8px;
+}
+
+.add-story h4{
+    background-color: #323436;
+    width: 80px;
+    padding: 22px 12px 12px 12px;
+    border-radius:0px 0px 8px 8px;
+    margin: 0;
+    position: relative;
+    bottom: 25;
+}
+
+.plus{
+    position: relative;
+    bottom: 12;
+    left: 30;
+    z-index: 1;
+    background-color: #7537b3;
+    padding: 4px 5px;
+    border: solid 1px white;
+    border-radius: 100%;
+}
+
+
+.margin-story{
+    display: flex;
+    overflow-x: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}<div class="chiamaka"> 
+<img src="./img/chiamaka.png" alt="" width="50px" height="50px" class="chia-round">
+<h6>4h .   <span class="fa-solid fa-globe globe"></span></h6>
+ <div class="update">
+    <b class="bold">Chiamaka</b>  <span class="light"> updated her profile picture.</span>
+</div>
+<span class="fa-solid fa-ellipsis ellip"></span>
+</div>
+<div class="chiamaka-img">
+<a href="./img/chiamaka.png"><img src="./img/chiamaka.png" alt=""></a>
+</div>
+
+<div class="like">
+<div class="likes">
+    12k <span class="fa-solid fa-thumbs-up up up1"></span>
+</div>
+<div class="comment">
+    11k <span class="fa-solid fa-message mes"></span>
+</div>
+<div class="share">
+    1.5k <span class="fa-solid fa-share"></span>
+</div>
+
+</div>
+
+.margin-story::-webkit-scrollbar{
+    display: none;
+}
+
+
+.margin-story img{
+    margin-right: 5px;
+}
+
+.margin-story p{
+    font-size: 10px;
+    position: relative;
+    bottom: 40;
+    left: 5;
+    font-family: bold-one;
+}
+
+.black2{
+    padding: 4px;
+    background-color: black;
+    position: relative;
+    bottom: 35;
+    margin: 0;
+}
+
+.chiamaka .chia-round{
+    border-radius: 100%;
+}
+
+.chiamaka h6{
+    color: #727577;
+    margin-left: 6px;
+}
+
+.chiamaka h6 .globe{
+    margin-left: 4px;
+}
+
+.chiamaka{
+    display: flex;
+    margin: 10px;
+    position: relative;
+}
+
+.bold{
+    font-size: 12px;
+}
+
+.light{
+    font-size: 12px;
+    margin-left: 2px;
+}
+
+.update{
+    display: flex;
+    position: relative;
+    right: 27;
+    top: 5;
+    flex-wrap: nowrap;
+}
+
+.ellip{
+    position: absolute;
+    right: 0;
+    bottom: 30;
+    margin-right: 10px;
+}
+
+
+.chiamaka-img img{
+    width: 100%;
+}
+
+.like{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 12px;
+}
+
+.likes{
+    background-color: #323436;
+    padding: 12px 30px;
+    border-radius: 30px;
+}
+
+.up{
+    color: white;
+    font-size: 16px;
+}
+
+.comment {
+    background-color: #323436;
+    padding: 12px 35px;
+    border-radius: 30px;
+    
+}
+
+.mes{
+    color: rgb(214, 199, 199);
+}
+
+.share {
+    background-color: #323436;
+    padding: 12px 35px;
+    border-radius: 30px;
+    
+}
+
+
+.up:not(:hover){
+    color: #7537b3;
+    
+}
+
+.chiamaka-img p{
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.light1{
+    font-size: 11px;
+}
+
+.light2{
+    font-size: 11px;
+}
+
+.light3{
+    font-size: 11px;
+}
+
+.light4{
+    font-size: 11px;
+}
+
+
+
+/* media query for 768px screen */
+
+@media (min-width: 765px){
+    .mind{
+        position: relative;
+    }
+    .mind img{
+        position: relative;
+        right: 130;
+    }
+
+    .mind input{
+        width: 500px;
+        position: absolute;
+        border-radius: 25px;
+        bottom: 4;
+    }
+
+    .mind .photos{
+        position: relative;
+        left: 133;
+    }
+
+    .mind input[value]{
+        font-size: 20px;
+    }
+
+    .chiamaka .bold{
+        font-size: 15px;
+    }
+
+    .chiamaka .light{
+        font-size: 15px;
+    }
+
+    .chiamaka h6{
+        position: relative;
+        left: 6;
+    }
+
+
+    
+}
+
+
+
+
+@media(max-width: 340px){
+    .steph-update{
+        
+        margin: 0px;
+    }
+
+    .steph-bold{
+        width: 100%;
+        font-size: 10px;
+    }
+
+    .steph-light{
+        width: 100%;
+        font-size: 10px;
+        
+    }
+}
+
+.wink{
+    color: orange;
+}
+
+.tears{
+    color: orange;
+    margin-left: 2px;
+}
+
+.heart{
+    color: red;
+}
+
+
